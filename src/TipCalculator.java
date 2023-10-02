@@ -12,7 +12,7 @@ public class TipCalculator{
         return new1;
         // this works by multiplying by a hundred (then dividing by it)
         // so that when math round is used it actually rounds to the nearest cent rather than dollar
-
+        // this is my freestyle part
     }
 
 
