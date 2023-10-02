@@ -34,7 +34,9 @@ public class TipCalculator{
 
         System.out.print("Enter the cost in dollars and cents, enter -1 to end and calculate:  ");
         double temp =  scan.nextDouble();
-        System.out.println();
+      //  System.out.println();
+        scan.nextLine();
+
         while(temp != -1){
 
             totalCostBT += temp;
@@ -49,14 +51,15 @@ public class TipCalculator{
         double costPerPersonAT = totalCostAT / peopleAmount;
         double tipPerPerson = tipAmount / peopleAmount;
 
+        totalCostBT = tipCalculator.rounding(totalCostBT);
         costPerPersonBT = tipCalculator.rounding(costPerPersonBT);
         costPerPersonAT = tipCalculator.rounding(costPerPersonAT);
         tipPerPerson = tipCalculator.rounding(tipPerPerson);
-
+        tipAmount = tipCalculator.rounding(tipAmount);
         System.out.println("..................................................");
         System.out.println("Total bill before tip: " + totalCostBT);
-        System.out.println("Total percentage: " + originalPercentTip + "%");
-        System.out.println("Total tip: " + percentTip);
+        System.out.println("Total percentage tip: " + originalPercentTip + "%");
+        System.out.println("Total tip: " + tipAmount);
         System.out.println("Total bill with tip: " + totalCostAT);
         System.out.println("Per person cost before tip: " + costPerPersonBT);
         System.out.println("Tip per person: " + tipPerPerson);
