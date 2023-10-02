@@ -1,7 +1,9 @@
 import java.util.Scanner;
 import java.lang.Math;
-
+// these are the input and math libraries needed to do scan.next() and math.round
 public class TipCalculator{
+
+    // this method unclutters the space that would be used for rounding each value
     public double rounding(double number){
         double new1 = number;
         new1 = new1 * 100;
@@ -11,6 +13,7 @@ public class TipCalculator{
 
 
     }
+
 
     public static void main(String[] args){
 
@@ -34,15 +37,13 @@ public class TipCalculator{
 
         System.out.print("Enter the cost in dollars and cents, enter -1 to end and calculate:  ");
         double temp =  scan.nextDouble();
-      //  System.out.println();
         scan.nextLine();
-
+        // this while loop will run until termination by input of -1
         while(temp != -1){
 
             totalCostBT += temp;
             System.out.print("Enter the cost in dollars and cents, enter -1 to end and calculate:  ");
             temp =  scan.nextDouble();
-          //  System.out.println();
             scan.nextLine();
         }
         tipAmount = totalCostBT * percentTip;
@@ -51,11 +52,14 @@ public class TipCalculator{
         double costPerPersonAT = totalCostAT / peopleAmount;
         double tipPerPerson = tipAmount / peopleAmount;
 
+
         totalCostBT = tipCalculator.rounding(totalCostBT);
         costPerPersonBT = tipCalculator.rounding(costPerPersonBT);
         costPerPersonAT = tipCalculator.rounding(costPerPersonAT);
         tipPerPerson = tipCalculator.rounding(tipPerPerson);
         tipAmount = tipCalculator.rounding(tipAmount);
+        // this is where the rounding method gets called
+
         System.out.println("..................................................");
         System.out.println("Total bill before tip: " + totalCostBT);
         System.out.println("Total percentage tip: " + originalPercentTip + "%");
@@ -64,6 +68,7 @@ public class TipCalculator{
         System.out.println("Per person cost before tip: " + costPerPersonBT);
         System.out.println("Tip per person: " + tipPerPerson);
         System.out.println("Total cost per person: " + costPerPersonAT);
+        // this is what gets printed
 
 
 
