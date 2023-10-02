@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd7abad7-32d6-4fde-8c42-a26373f312a0" name="Changes" comment="" />
+    <list default="true" id="fd7abad7-32d6-4fde-8c42-a26373f312a0" name="Changes" comment="third commit, shoudl ruin fine but no rounding yet">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TipCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TipCalculator.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +26,10 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "onboarding.tips.debug.path": "C:/Users/Gregory/IdeaProjects/project1/src/Main.java",
     "vue.rearranger.settings.migration": "true"
   }
@@ -32,22 +42,39 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1696206507690</updated>
-      <workItem from="1696206508792" duration="7000" />
+      <workItem from="1696206508792" duration="4378000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1696207608846</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696207608846</updated>
+    </task>
+    <task id="LOCAL-00002" summary="second commit">
+      <created>1696208041159</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1696208041159</updated>
+    </task>
+    <task id="LOCAL-00003" summary="third commit, shoudl ruin fine but no rounding yet">
+      <created>1696208363060</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1696208363061</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <MESSAGE value="second commit" />
+    <MESSAGE value="third commit, shoudl ruin fine but no rounding yet" />
+    <option name="LAST_COMMIT_MESSAGE" value="third commit, shoudl ruin fine but no rounding yet" />
   </component>
 </project>
