@@ -10,7 +10,8 @@ public class TipCalculator{
         new1 = Math.round(new1);
         new1 = new1 / 100;
         return new1;
-
+        // this works by multiplying by a hundred (then dividing by it)
+        // so that when math round is used it actually rounds to the nearest cent rather than dollar
 
     }
 
